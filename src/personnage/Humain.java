@@ -33,15 +33,15 @@ public class Humain {
 		}
 	}
 	
-	private void parler(String texte) {
+	protected void parler(String texte) {
 		System.out.println("(" + nom + ") - " + texte);
 	}
 	
-	private void gagnerArgent(int sommeGagnee) {
+	protected void gagnerArgent(int sommeGagnee) {
 		argent += sommeGagnee;
 	}
 	
-	private void perdreArgent(int sommePerdue) {
+	protected void perdreArgent(int sommePerdue) {
 		argent -= sommePerdue;
 	}
 }
